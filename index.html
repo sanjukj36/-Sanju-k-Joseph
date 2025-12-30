@@ -1,611 +1,278 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior:smooth ;">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sanju K Joseph | MERN Stack Developer</title>
 
-  <title>Sanju k Joseph</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <style>
-    .mySlides {
-      display: none;
-    }
-  </style>
-
-  <!-- Favicons -->
-  <link href="assets/img/profile-img.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icons -->
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- CSS -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.9.1
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/pro.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Sanju K Joseph</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://www.linkedin.com/in/sanju-k-joseph-1459a2216/?originalSubdomain=in" class="linkedin"><i
-              class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/sanjukj36" class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://www.facebook.com/sanju.kjoseph.3" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/sanjukjoseph/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://chatwith.io/s/sanju-k-joseph" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-
-        </div>
-      </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span>Certification</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
+  <!-- Floating Navigation -->
+  <nav class="glass-nav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">SJ</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
     </div>
-  </header><!-- End Header -->
+  </nav>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in" style="margin: 329px 0 16px 301px;">
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <div class="status-pill">
+        <span class="dot"></span> Available for work
+      </div>
       <h1>Sanju K Joseph</h1>
-      <p>I'm <span class="typed" data-typed-items="MERN Stack Developer, Full Stack Developer, Python Developer"></span>
-      </p>
+      <h2 class="role-text">MERN Stack Developer & UI Enthusiast</h2>
+      <p>Building high-performance, visually stunning web applications with React, Node.js, and MongoDB.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/sanju-k-joseph-1459a2216/" target="_blank"><i
+              class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/sanjukj36" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="mailto:sanjukjoseph1610@gmail.com"><i class="bx bx-envelope"></i></a>
+        </div>
+      </div>
     </div>
-  </section><!-- End Hero -->
+    <div class="hero-bg-glow"></div>
+  </section>
 
-  <main id="main">
+  <!-- Bento Grid Container -->
+  <div class="bento-wrapper">
 
-    <section id="" class="about">
-      <div class="container p-4">
+    <!-- About Section -->
+    <section id="about" class="bento-section">
+      <div class="bento-box large-box" data-aos="fade-up">
+        <span class="box-label">About Me</span>
+        <h3>Passionate about Code & Design</h3>
+        <p>I’m a passionate MERN Stack Developer with a strong focus on creating dynamic, user-friendly, and visually
+          appealing web applications. I specialize in building full-stack solutions using MongoDB, Express.js, React.js,
+          and Node.js.</p>
+        <br>
+        <p>From developing responsive interfaces with React-Bootstrap and Tailwind CSS to integrating robust REST APIs,
+          I strive to transform complex ideas into elegant digital products.</p>
+      </div>
 
-        <!-- <div class="section-title">
-          <h2>About</h2>
-          <p>I'm Sanju K Joseph and I'm a fresher looking for great opportunities to shape my career through a reputable organizations. I have completed several courses in python, HTML, java. And i have trained my self for my career in every way I can.</p>
-        </div> -->
+      <div class="bento-box small-box stats-box" data-aos="fade-up" data-aos-delay="100">
+        <span class="stat-number">2+</span>
+        <span class="stat-label">Years Exp</span>
+      </div>
 
-        <div class="row">
-          <div class="col-lg-12" data-aos="fade-right">
-            <h1 style="color:rgb(255, 255, 255); font-size: 1.5rem; line-height: 1.6;">
-              I’m a passionate MERN Stack Developer with a strong focus on creating dynamic, user-friendly, and visually
-              appealing web applications. I specialize in building full-stack solutions using MongoDB, Express.js,
-              React.js, and Node.js.
-              <br><br>
-              From developing responsive interfaces with React-Bootstrap and Tailwind CSS to integrating robust REST
-              APIs and managing backend logic with Node.js and Express, I enjoy transforming complex ideas into elegant,
-              high-performance digital products.
-            </h1>
+      <div class="bento-box small-box stats-box" data-aos="fade-up" data-aos-delay="200">
+        <span class="stat-number">10+</span>
+        <span class="stat-label">Projects</span>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bento-section">
+      <div class="bento-box full-width" data-aos="fade-up">
+        <span class="box-label">Tech Stack</span>
+        <h3>Tools & Technologies</h3>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h4>Frontend</h4>
+            <div class="tags">
+              <span>React.js</span>
+              <span>Bootstrap</span>
+              <span>Tailwind CSS</span>
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h4>Backend</h4>
+            <div class="tags">
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>Python</span>
+              <span>Django</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h4>Database & Cloud</h4>
+            <div class="tags">
+              <span>MongoDB</span>
+              <span>SQL</span>
+              <span>SQLite</span>
+              <span>AWS</span>
+              <span>Nginx</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h4>Tools</h4>
+            <div class="tags">
+              <span>Git</span>
+              <span>Docker</span>
+              <span>Linux</span>
+              <span>Neovim</span>
+              <span>PM2</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container p-4">
+    <!-- Experience Section -->
+    <section id="experience" class="full-width-section">
+      <h2 class="section-heading">Experience</h2>
+      <div class="timeline">
 
-        <div class="section-title">
-          <h2>Skills</h2>
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-date">Mar 2025 - Present</div>
+          <div class="timeline-content bento-box">
+            <h4>Software Developer</h4>
+            <h5>MariApps Marine Solutions</h5>
+            <ul>
+              <li>Architected real-time vessel-to-shore CCTV streaming system.</li>
+              <li>Built Python Django backend for HLS streaming.</li>
+              <li>Designed secure VPN infrastructure and MQTT pipelines.</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">React.js <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Node.js <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MongoDB <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Express.js <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-date">Oct 2024 - Mar 2025</div>
+          <div class="timeline-content bento-box">
+            <h4>Software Developer Trainee</h4>
+            <h5>MariApps Marine Solutions</h5>
+            <ul>
+              <li>Developed response web apps with React, Node, and MongoDB.</li>
+              <li>Created dynamic UI components with React-Bootstrap.</li>
+              <li>Implemented RESTful APIs for client-server communication.</li>
+            </ul>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">Python <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Django <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">AWS <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-          </div>
-
         </div>
 
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-date">Nov 2023 - Jul 2024</div>
+          <div class="timeline-content bento-box">
+            <h4>MERN Stack Intern</h4>
+            <h5>Luminar Technolab</h5>
+            <p>Specialized in UX and MERN stack development.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-date">Apr 2023 - Sep 2023</div>
+          <div class="timeline-content bento-box">
+            <h4>Django Developer</h4>
+            <h5>Emdeon Digital Services</h5>
+            <p>Worked on debugging, Bootstrap, and Django development.</p>
+          </div>
+        </div>
       </div>
-    </section><!-- End Skills Section -->
+    </section>
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container p-4">
+    <!-- Projects Section -->
+    <section id="projects" class="full-width-section">
+      <h2 class="section-heading">Selected Works</h2>
+      <div class="projects-grid">
 
-        <div class="section-title">
-          <h2>Resume</h2>
-
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">OBJECTIVE</h3>
-            <div class="resume-item pb-0">
-              <h4>Sanju K Joseph<br><br></h4>
-              <p>To pursue a highly rewarding career, seeking a job in a challenging and healthy work environment where
-                I can utilize my skills and knowledge efficiently for organizational growth. To succeed in an
-                environment of growth and excellence and earn job satisfaction and self-development, assisting in
-                achieving personal as well as organizational goals.</p>
+        <div class="project-card bento-box" data-aos="fade-up">
+          <div class="project-content">
+            <span class="box-label">Healthcare</span>
+            <h4>Covid Healthcare System</h4>
+            <p>Web app for booking rooms/ambulances and managing health reports.</p>
+            <div class="tags small-tags">
+              <span>Django</span>
+              <span>Python</span>
+              <span>SQLite</span>
             </div>
-            <!-- education -->
-
-            <h3 class="resume-title">Professional Experience</h3>
-
-            <div class="resume-item">
-              <h4>Software Developer</h4>
-              <h5>Mar 2025 - Present</h5>
-              <p><em>MariApps Marine Solutions, Kochi, Kerala, India</em></p>
-              <ul>
-                <li>Architected and developed a real-time vessel-to-shore CCTV streaming system.</li>
-                <li>Built a Python Django backend serving HLS (m3u8) files generated by FFmpeg.</li>
-                <li>Designed a secure VPN-based infrastructure for data transmission.</li>
-                <li>Designed and implemented a robust MQTT-based data processing pipeline.</li>
-                <li>Maintained Node.js servers, optimized NGINX reverse proxy, and automated CI/CD for Vite/React.</li>
-                <li>Managed headless Linux servers via SSH + tmux + Neovim.</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>Software Developer Trainee</h4>
-              <h5>Oct 2024 - Mar 2025</h5>
-              <p><em>MariApps Marine Solutions, Ernakulam, Kerala, India</em></p>
-              <ul>
-                <li>Developed and maintained responsive web applications using React.js, Node.js, Express.js, and
-                  MongoDB.</li>
-                <li>Created dynamic UI components using React-Bootstrap and Tailwind CSS.</li>
-                <li>Implemented RESTful APIs for data communication between client and server.</li>
-                <li>Designed interactive dashboards and alert management systems.</li>
-                <li>Focused on UI/UX principles and collaborated using Git version control.</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>MERN Stack Intern</h4>
-              <h5>Nov 2023 - Jul 2024</h5>
-              <p><em>Luminar Technolab, Ernakulam, Kerala, India</em></p>
-              <ul>
-                <li>Specialized in User Experience (UX) and MERN Stack development.</li>
-                <li>Gained practical experience with React, Node.js, and modern web technologies.</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>Django Developer</h4>
-              <h5>Apr 2023 - Sep 2023</h5>
-              <p><em>Emdeon Digital Services Private Limited, Kochi, Kerala, India</em></p>
-              <ul>
-                <li>Worked on debugging, Bootstrap, and Django development.</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>AWS Intern</h4>
-              <h5>Jan 2022 - Jun 2022</h5>
-              <p><em>iDatalytics, Ernakulam, Kerala, India</em></p>
-              <ul>
-                <li>Focused on AWS cloud services, problem solving, and database management (MySQL/SQLite).</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">PROJECTS</h3>
-            <div class="resume-item pb-0">
-              <h4>Covid Healthcare system</h4>
-              <p><em>Python, Django, SQLite, CSS, HTML</em></p>
-              <p>Web application for booking rooms/ambulances and providing health reports/medicines.</p>
-            </div>
-
-            <div class="resume-item pb-0">
-              <h4>Avodha Shopping</h4>
-              <p><em>Python, Django, CSS, JavaScript, HTML</em></p>
-              <p>Online food delivery website.</p>
-            </div>
-
-            <h3 class="resume-title">AREAS OF EXPERTISE</h3>
-            <div class="resume-item">
-              <h4>Languages</h4>
-              <ul>
-                <li>C</li>
-                <li>Java</li>
-                <!--                 <li>JavaScript</li>  -->
-                <li>Python</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Markup Languages</h4>
-              <ul>
-                <li>Html</li>
-                <li>CSS</li>
-
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Database Operations</h4>
-              <ul>
-                <li>SQL</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>IDE</h4>
-              <ul>
-                <li>Eclipse</li>
-                <li>PyCharm</li>
-              </ul>
-            </div>
-
-
           </div>
+        </div>
 
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <!-- areas of expertis -->
-
-            <div class="resume-item">
-              <h4>Cloud</h4>
-              <ul>
-                <li>AWS</li>
-              </ul>
+        <div class="project-card bento-box" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-content">
+            <span class="box-label">E-Commerce</span>
+            <h4>Avodha Shopping</h4>
+            <p>Online food delivery website with cart and menu functionality.</p>
+            <div class="tags small-tags">
+              <span>Django</span>
+              <span>JS</span>
+              <span>CSS</span>
             </div>
-            <div class="resume-item">
-              <h4>Operating Systems</h4>
-              <ul>
-                <li>Windows</li>
-              </ul>
+            <div class="project-links">
+              <a href="https://avodhashop.pythonanywhere.com/" target="_blank">View Live</a>
+              <a href="https://github.com/sanjukj36/Avodha-Shopping" target="_blank">GitHub</a>
             </div>
-
-            <div class="resume-item">
-              <h4>Other</h4>
-              <ul>
-                <li>MS Excel</li>
-                <li>MS Office</li>
-                <li>MS PowerPoint</li>
-              </ul>
-            </div>
-
-
-
-
-
-
-            <h3 class="resume-title">EDUCATION</h3>
-            <div class="resume-item">
-              <h4>INTEGRATED MCA </h4>
-              <div class="col-lg-4" data-aos="fade-right">
-                <img src="assets/img/SNGIST.jpg" class="img-fluid" alt="">
-              </div>
-              <h5>2017-2022</h5>
-              <p><em>SNGIST GROUP OF INSTITUTIONS</em></p>
-              <p>Manjaly, North Paravur, Kerala</p>
-            </div>
-            <div class="resume-item">
-              <h4>PLUS TWO</h4>
-              <div class="col-lg-4" data-aos="fade-right">
-                <img src="assets/img/our-lady-of-mercy.png" class="img-fluid" alt="">
-              </div>
-              <h5>2016-2017 </h5>
-              <p><em>OUR LADY OF MERCY H.S.S</em></p>
-              <p>Aroor, Alappuzha, Kerala </p>
-            </div>
-            <div class="resume-item">
-              <h4>TENTH </h4>
-              <div class="col-lg-4" data-aos="fade-right">
-                <img src="assets/img/st.Alberts.jpg" class="img-fluid" alt="">
-              </div>
-              <h5>2014-2015</h5>
-              <p><em>St. ALBERT'S H.S.S </em></p>
-              <p>Kochi, Ernakulam, Kerala</p>
-            </div>
-            <!-- education stop -->
-
           </div>
-
-          <p style="color:black"><br><br>I hereby declare the above-listed particulars of information and evidence are
-            true to the best of my
-            knowledge and belief.</p>
-
-
-
         </div>
 
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Certification Portfoli Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Certification</h2>
-        </div>
-        <div class="w3-content w3-display-container">
-          <img class="mySlides" src="assets/img/Certificate_Django.png" style="width:100%">
-          <img class="mySlides" src="assets/img/Certification_Python.jpg" style="width:100%">
-          <img class="mySlides" src="assets/img/Certificate_HTML.jpg" style="width:100%">
-          <img class="mySlides" src="assets/img/Certification java.jpeg" style="width:100%">
-
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-        </div>
-        <!-- <div class="col-lg-12 col-md-12 portfolio-item filter-web">
-            <div>
-              <div class="row p-" style=" --bs-gutter-x: 2rem;">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" style="background-color:rgb(78, 7, 111) ;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" style="background-color:rgb(78, 7, 111) ;" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" style="background-color:rgb(78, 7, 111) ;" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" id="HTML_Certification">
-                        <img src="assets/img/Certificate_Django.png" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/Certification_Python.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/Certificate_HTML.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/Certification java.jpeg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" style="z-index: 0">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" style="z-index: 0">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div> 
+        <div class="project-card bento-box" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-content">
+            <span class="box-label">Infrastructure</span>
+            <h4>AWS Chatbot</h4>
+            <p>Text-based chatbot for managing AWS infrastructure (spinning up instances).</p>
+            <div class="tags small-tags">
+              <span>AWS</span>
+              <span>Python</span>
+              <span>Bot Framework</span>
             </div>
-            </div>
-          </div> -->
-
-      </div>
+          </div>
+        </div>
 
       </div>
     </section>
-    <!-- End Portfolio Section -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container p-4">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>
-            I’m a passionate MERN Stack Developer with a strong focus on creating dynamic, user-friendly, and visually
-            appealing web applications. I specialize in building full-stack solutions using MongoDB, Express.js,
-            React.js, and Node.js, with a deep appreciation for clean UI/UX design principles that enhance user
-            experience and engagement.
-            <br><br>
-            I’ve worked on diverse projects — including interactive dashboards, alert management systems, and UI-driven
-            web apps — always prioritizing performance, scalability, and intuitive design.
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/proffile.jpeg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Python Developer.</h3>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>16 October 1998</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Integrated MCA</span></li>
-
-                  <!-- </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                    <span>sanjukjoseph1610@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 903 790 3334</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Vyttila,Ernakulam,Kerala</span>
-                  </li>
-
-                </ul>
-              </div>
-            </div>
-            <p><br>
-              For me, my strength is that I'm a person of self-motivation and a positive mindset. I'm very
-              straightforward and a team player. My long-term goal is to achieve a good position where I can build my
-              career and help the organization grow. I never neglect an opportunity to improve myself.
-            </p>
-          </div>
+    <!-- Contact Section -->
+    <section id="contact" class="bento-section centered-section">
+      <div class="bento-box contact-box" data-aos="zoom-in">
+        <h3>Get In Touch</h3>
+        <p>Currently open for new opportunities.</p>
+        <a href="mailto:sanjukjoseph1610@gmail.com" class="btn-primary">Say Hello</a>
+        <div class="contact-details">
+          <span><i class="bx bx-map"></i> Ernakulam, Kerala</span>
+          <span><i class="bx bx-phone"></i> +91 9037 903 334</span>
         </div>
       </div>
-    </section><!-- End About Section -->
+    </section>
 
+    <footer class="footer">
+      <p>&copy; 2025 Sanju K Joseph. Built with modern web technologies.</p>
+    </footer>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container">
+  </div>
 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <h3>You are the average of five people you hang around </p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-12 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Ernakulam,Kerala</p>
-              </div>
-
-              <div class="email">
-                <a href="mailto:sanjukjoseph1610@gmail.com">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>sanjukjoseph1610@gmail.com</p>
-                </a>
-              </div>
-
-              <div class="phone">
-                <a href="tel:9037903334">
-                  <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>+91 9037 903 334</p>
-                </a>
-              </div>
-
-            </div>
-
-          </div>
-
-
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span><a href="https://sanjukj36.github.io/Sanju-k-joseph/">Sanju K
-              Joseph</a></span></strong>
-      </div>
-
-    </div>
-  </footer><!-- End  Footer -->
-
-  <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
-
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = x.length }
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      x[slideIndex - 1].style.display = "block";
-    }
-  </script>
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <!-- Scripts -->
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <script>
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
 </body>
 
 </html>
