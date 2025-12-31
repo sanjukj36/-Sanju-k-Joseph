@@ -296,6 +296,7 @@ h5 {
     font-size: 2.5rem;
     font-weight: 700;
     background: var(--gradient-brand);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -519,11 +520,27 @@ h5 {
     .small-box {
         grid-column: span 6;
     }
+
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .section-heading {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 600px) {
     #hero h1 {
         font-size: 2.5rem;
+    }
+
+    .role-text {
+        font-size: 1.2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
     }
 
     .small-box {
@@ -545,5 +562,45 @@ h5 {
 
     .timeline::before {
         display: none;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-links {
+        flex-wrap: wrap;
+    }
+
+    .contact-details {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .glass-nav {
+        width: 95%;
+        padding: 0 15px;
+    }
+
+    .nav-logo {
+        font-size: 1rem;
+    }
+
+    .nav-cta {
+        font-size: 0.75rem;
+        padding: 6px 12px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading {
+        font-size: 1.8rem;
     }
 }
